@@ -3,7 +3,7 @@
   Доповніть цю функцію, використовуючи generics, щоб вона повертала правильний тип.
 */
 
-function getPromise(): Promise<(string | number)[]> {
+function getPromise(): Promise<Array<string | number>> {
   return new Promise((resolve): void => {
     resolve(['Text', 50]);
   });
