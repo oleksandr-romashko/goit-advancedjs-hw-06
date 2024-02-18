@@ -7,6 +7,8 @@ let anything: unknown = -20;
 anything = 'Text';
 anything = {};
 
+export {};
+
 // Варіант 2:
 // (якщо не прив'язуватись до назви змінної 
 //  та ми знаємо що будуть лише ці два конкретні типи
@@ -16,7 +18,6 @@ let alternativeAnything: (number | {}) = -20;
 alternativeAnything = 'Text';
 alternativeAnything = {};
 
-export {};
 
 // Варіант 3:
 // Мені здається це найгіршим варіантом, 
